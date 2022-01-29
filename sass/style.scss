@@ -144,7 +144,7 @@ h2.title {
 	transition: color 0.3s, background-color 0.3s;
 }
 
-.controls:hover {
+.controls button:hover {
 	color: var(--first-color);
 	background-color: var(--second-color);
 }
