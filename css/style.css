@@ -197,6 +197,12 @@ h2.title {
           align-items: center;
 }
 
+.color-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .color-buttons button {
   margin: 0 30px;
   width: 50px;
@@ -291,10 +297,11 @@ h2.title {
 }
 
 .add-transaction-panel button {
-  margin: 0 30px;
+  margin: 30px;
   padding: 15px 40px;
   font-size: 18px;
   color: #fff;
+  background: none;
   border: 1px solid #fff;
   cursor: pointer;
   -webkit-transition: background-color 0.3s;
